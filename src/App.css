@@ -1,0 +1,129 @@
+.main_div {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(183, 59, 59);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+input {
+  margin-top: 28px;
+}
+.todo_style {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+
+.todo_style .fa-times:hover {
+  background-color: rgb(77, 70, 70);
+}
+
+.todo_style .fa-check {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(113, 61, 61);
+  border-radius: 50%;
+  margin: 0 15px 0 0px;
+  color: antiquewhite;
+  box-shadow: 5px 5px 15px -15px rgba(0, 0, 0, 0.3);
+}
+.fa-check:hover {
+  background-color: rgba(17, 255, 0, 0.493);
+}
+.center_div {
+  width: 25%;
+  height: 80vh;
+  background-color: aliceblue;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.507);
+  border-radius: 15px;
+  background-color: rgb(198, 201, 205);
+}
+.cross {
+  margin-top: 15px;
+  padding: 10px 10px;
+  background-color: rgb(99, 99, 255);
+  border-radius: 10%;
+  background-color: rgb(99, 99, 255);
+  outline: none;
+  border: none;
+  box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.289);
+}
+.cross :hover {
+  color: rgba(17, 255, 0, 0.406);
+
+  /* background-color: rgba(17, 255, 0, 0.406); */
+}
+.fa-trash {
+  padding-right: 10px;
+}
+h1 {
+  color: aliceblue;
+  background: transparent;
+  background-color: rgb(113, 61, 61);
+  padding: 6px 0 2px 0;
+  margin-top: 15px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+input {
+  text-align: center;
+  height: 30px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 500;
+  width: 60%;
+  border-bottom: 2px solid rgb(113, 61, 61);
+  border-bottom-style: outset;
+  outline: #61dafb;
+  margin-right: 5px;
+  color: rgb(113, 55, 55);
+}
+.fa-plus {
+  padding-top: 7px;
+  height: 30px;
+  width: 30px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  border-radius: 50%;
+  border-color: transparent;
+  color: rgb(255, 255, 255);
+  background-color: rgb(113, 61, 61);
+  border: none;
+  margin-left: 19px;
+  box-shadow: 5px 5px 15px -5px rgb(0, 0, 0, 0.3);
+  outline: none;
+  margin-left: 19px;
+}
+
+.fa-plus:hover {
+  background-color: rgb(77, 70, 70);
+}
+ul {
+  margin-top: 30px;
+}
+ul li {
+  padding-left: 0px;
+  text-align: left;
+  font-size: larger;
+  color: rgb(160, 28, 28);
+  font-weight: 600;
+  min-height: 40px;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+@media (max-width: 768px) {
+  .center_div {
+    width: 55%;
+  }
+}
